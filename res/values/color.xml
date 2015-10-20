@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 标题 -->
+    <color name="title_bg">#e85280</color>
+    <color name="normal_bg">#f2f2f2</color>
+    
+    
+    <!--一般颜色值  -->
+    <color name="white">#ffffff</color>
+    <color name="pink">#ea5180</color>
+    <color name="black">#333333</color>
+    
+</resources>

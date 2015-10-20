@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:paddingTop="2dp" >
+
+    <RadioButton
+        android:id="@+id/home"
+        style="@style/navigationBottom"
+        android:drawableTop="@drawable/nav_home_select"
+        android:text="@string/home"
+        android:textColor="@color/pink" />
+
+    <RadioButton
+        android:id="@+id/shopcart"
+        style="@style/navigationBottom"
+        android:drawableTop="@drawable/nav_shopcart"
+        android:text="@string/shopcart"
+        android:textColor="@color/black" />
+
+    <RadioButton
+        android:id="@+id/communicate"
+        style="@style/navigationBottom"
+        android:drawableTop="@drawable/nav_communicate"
+        android:text="@string/communicate"
+        android:textColor="@color/black" />
+
+    <RadioButton
+        android:id="@+id/my"
+        style="@style/navigationBottom"
+        android:drawableTop="@drawable/nav_my"
+        android:text="@string/my"
+        android:textColor="@color/black" />
+
+</LinearLayout>
